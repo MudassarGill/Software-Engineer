@@ -1,7 +1,6 @@
 function MyUserName() {
     const userName = "Mudassar";
-    console.log(userName);
-    
+    console.log(`Hello, ${userName}`);
 }
 
 MyUserName();
