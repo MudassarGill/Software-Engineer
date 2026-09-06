@@ -9,4 +9,20 @@ const MyUser={
     [mySym]:"mySymbolValue"
 }
 
-console.log(MyUser['IsLoggedIn']);
+// console.log(MyUser['IsLoggedIn']);
+// console.log(MyUser);
+const MynewUser={
+    name:"Mudassar",
+    age:25,
+    isAdmin:false,
+    email:"mudassar@outlook.com",
+    greeting:function(){
+        return `Hello, ${this.name}`;
+    },
+    userName:{
+        userfullname:{
+            firstName:"Mudassar",
+            lastName:"Hussain"
+        }
+    }
+}
