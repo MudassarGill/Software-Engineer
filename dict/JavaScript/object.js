@@ -27,4 +27,24 @@ const MynewUser={
     }
 }
 
-console.log(MynewUser.greeting());
+// console.log(MynewUser.greeting());
+
+const MyfirstObjectArray=[
+    {
+        name:"Mudassar",
+        age:25,
+        isAdmin:false,
+        email:"mudassar@outlook.com"
+    }
+];
+
+const MySecondObjectArray=[
+    {
+        name:"Ali",
+        age:20,
+        isAdmin:true,
+        email:"ali@outlook.com"
+    }
+];
+
+myObjectArray=Object.assign({},MyfirstObjectArray,MySecondObjectArray);
