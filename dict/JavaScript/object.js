@@ -47,4 +47,5 @@ const MySecondObjectArray=[
     }
 ];
 
-myObjectArray=Object.assign({},MyfirstObjectArray,MySecondObjectArray);
+myObjectArray=Object.assign({},...MyfirstObjectArray, ...MySecondObjectArray);
+console.log(myObjectArray);
