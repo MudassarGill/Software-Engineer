@@ -26,3 +26,5 @@ const MynewUser={
         }
     }
 }
+
+console.log(MynewUser.greeting());
