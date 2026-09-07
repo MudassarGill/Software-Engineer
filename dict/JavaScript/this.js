@@ -17,5 +17,8 @@ const UserName=(name,age,id)=>{
 
 UserName("John", 30, 1);
 
-const AddTwoNumbers=(num1,num2)=>num1+num2;
+const AddTwoNumbers=(num1,num2)=>num1 + num2;
 console.log(AddTwoNumbers(5,10));
+
+
+
