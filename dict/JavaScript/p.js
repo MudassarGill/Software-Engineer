@@ -11,4 +11,4 @@ function CalculateSum(num1,num2){
     return num1 + num2;
 
 }
-CalculateSum(5,10);
+console.log(CalculateSum(5,10));
