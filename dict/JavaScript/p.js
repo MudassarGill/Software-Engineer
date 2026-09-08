@@ -54,8 +54,26 @@
 //     console.log(Index);
 // }
 
-let number=0
-while(number<=10){
-    console.log(number);
-    number ++
-}
+// let number=0
+// while(number<=10){
+//     console.log(number);
+//     number ++
+// }
+
+const MyCoding=[
+    {
+       Language:"JavaScript",
+       Level:"Intermediate"
+},
+{
+    Language:"Python",
+    Level:"Beginner"
+},
+{
+ language:"Java",
+ Level:"Advanced"
+}]
+
+MyCoding.forEach((item)=>{
+    console.log(`Language: ${item.Language}, Level: ${item.Level}`);
+})
