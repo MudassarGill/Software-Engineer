@@ -21,3 +21,25 @@ if(UserLoggedIn){
 else{
     console.log("Please Log In");
 }
+
+const DayofWeek = "Monday";
+switch(DayofWeek){
+    case "Monday":
+        console.log("Today is Monday");
+        break;
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break;
+    case "Thursday":
+        console.log("Today is Thursday");
+        break;
+    case "Friday":
+        console.log("Today is Friday");
+        break;
+    // Add more cases as needed
+    default:
+        console.log("Invalid day");
+}
