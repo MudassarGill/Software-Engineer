@@ -50,6 +50,12 @@
 //     console.log(numbers[i]);
 // }
 
-for (let Index=0;Index<10;Index++){
-    console.log(Index);
+// for (let Index=0;Index<10;Index++){
+//     console.log(Index);
+// }
+
+let number=0
+while(number<=10){
+    console.log(number);
+    number ++
 }
