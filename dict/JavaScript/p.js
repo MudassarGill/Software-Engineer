@@ -7,8 +7,17 @@
 // const CalculateProduct = (num1,num2) => num1 * num2;
 // console.log(CalculateProduct(num1,num2));
 
-function CalculateSum(num1,num2){
-    return num1 + num2;
+// function CalculateSum(num1,num2){
+//     return num1 + num2;
 
+// }
+// console.log(CalculateSum(5,10));
+
+
+const UserLoggedIn = true;
+if(UserLoggedIn){
+    console.log("Welcome User");
 }
-console.log(CalculateSum(5,10));
+else{
+    console.log("Please Log In");
+}
