@@ -44,8 +44,12 @@
 //         console.log("Invalid day");
 // }
 
-const numbers = [1, 2, 3, 4, 5];
-// Using for loop
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+// const numbers = [1, 2, 3, 4, 5];
+// // Using for loop
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+// }
+
+for (let Index=0;Index<10;Index++){
+    console.log(Index);
 }
