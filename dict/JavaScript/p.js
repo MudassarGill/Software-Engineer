@@ -63,12 +63,10 @@
 const MyCoding=[
     {
        Language:"JavaScript",
-       Level:"Intermediate"
-},
+       Level:"Intermediate"},
 {
     Language:"Python",
-    Level:"Beginner"
-},
+    Level:"Beginner"},
 {
  language:"Java",
  Level:"Advanced"
