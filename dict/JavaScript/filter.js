@@ -93,3 +93,4 @@ const books = [
 
 
 const UserBook=books.filter((book)=>book.genre==="Programming");
+console.log(UserBook);
