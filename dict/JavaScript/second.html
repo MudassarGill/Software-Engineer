@@ -32,5 +32,10 @@
         
     }
     addOptimizedLanguage('PHP');
+    // edit any language
+   const secondLanguage=document.querySelector('li');
+   const newLi=document.createElement('li:nth-child(2)');
+   newLi.appendChild(document.createTextNode('Ruby'));
+   document.querySelector('.language').replaceChild(newLi, secondLanguage);
 </script>
 </html>
