@@ -23,5 +23,14 @@
     addlanaguage('C#');
     addlanaguage('C++');
     addlanaguage('Java');
+
+
+    function addOptimizedLanguage(langName){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+        
+    }
+    addOptimizedLanguage('PHP');
 </script>
 </html>
