@@ -37,5 +37,17 @@
    const newLi=document.createElement('li:nth-child(2)');
    newLi.appendChild(document.createTextNode('Ruby'));
    document.querySelector('.language').replaceChild(newLi, secondLanguage);
+
+
+   // remove function
+   //if we want to pass the language name to remove it, we can use the following function
+   function RemoveLanguage(langName){
+    const selectedLanguage=document.querySelector('li');
+    const newselectedLanuage=selectedLanguage(`${langName}`)
+    
+     newselectedLanuage.remove();
+   }
+   RemoveLanguage('C#');
+   RemoveLanguage('python')
 </script>
 </html>
