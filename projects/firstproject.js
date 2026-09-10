@@ -9,10 +9,10 @@ for (let i = 0; i < AllBtnSelector.length; i++) {
             Bodyselector.style.backgroundColor = 'red';
         }
         else if (event.target.id === 'btn2') {
-            Bodyselector.style.backgroundColor = 'blue';
+            Bodyselector.style.backgroundColor = 'green';
         }
         else if (event.target.id === 'btn3') {
-            Bodyselector.style.backgroundColor = 'green';
+            Bodyselector.style.backgroundColor = 'blue';
         }
         else if (event.target.id === 'btn4') {
             Bodyselector.style.backgroundColor = 'yellow';
