@@ -8,4 +8,13 @@ increaseBtn.addEventListener('click',function(e){
   currentNumber++;
   number.textContent=currentNumber;
 })
+decreaseBtn.addEventListener('click',function(e){
+    currentNumber--;
+    number.textContent=currentNumber
+})
+resetBtn.addEventListener('click',function(e){
+    currentNumber=0
+    number.textContent=currentNumber
+    
+})
 
