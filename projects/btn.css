@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.number{
+    background-color: orange;
+    width: 20%;
+    height: 60px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+   
+    
+}
+.main{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    
+}
+.btn{
+    position: absolute;
+    top: 280px;
+    left: 470px;
+    height: 30px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btns{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
