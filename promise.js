@@ -28,11 +28,21 @@
 
 const UserData=new Promise(function(resolve,reject){
     setTimeout(function(data){
-        const data=fetch('https://jsonplaceholder.typicode.com/users')
-        console.log(data)
-        resolve()
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(function(response) {
+                return response.json()
+            })
+            .then(function(data) {
+                resolve(data)
+            })
+            .catch(function(error) {
+                reject(error)
+            })
     },2000)
 })
- UserData.then(function(data){
+ UserData.then(function(data) {
     console.log(data)
- })
+})
+.catch(function(error) {
+    console.log(error)
+})
