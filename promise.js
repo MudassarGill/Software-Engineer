@@ -1,11 +1,24 @@
 //promise in js
-const PromiseW=new Promise(function(resolve,reject){
-    setTimeout(function(){
-        console.log('asynic task completed')
-        resolve()
-    })
+// const PromiseW=new Promise(function(resolve,reject){
+//     setTimeout(function(){
+//         console.log('asynic task completed')
+//         resolve()
+//     },1000)
 
+// })
+// PromiseW.then(function(){
+//     console.log('Hello world')
+// })
+
+//second promise
+
+const SecondPromise=new Promise(function(resolve, reject){
+    setTimeout(function(){
+        console.log({username:'Mudassar Hussain',gmail:'mudassarhussain@gmail.com'});
+
+        
+    },1000)
 })
-PromiseW.then(function(){
-    console.log('Hello world')
+SecondPromise.then(function(user){
+    console.log(`User Data: ${user}`)
 })
