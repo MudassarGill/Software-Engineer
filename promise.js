@@ -12,13 +12,27 @@
 
 //second promise
 
-const SecondPromise=new Promise(function(resolve, reject){
-    setTimeout(function(){
-        console.log({username:'Mudassar Hussain',gmail:'mudassarhussain@gmail.com'});
+// const SecondPromise=new Promise(function(resolve, reject){
+//     setTimeout(function(){
+//         console.log({username:'Mudassar Hussain',gmail:'mudassarhussain@gmail.com'});
+//         resolve()
 
         
-    },1000)
+//     },1000)
+// })
+// SecondPromise.then(function(user){
+//     console.log(user)
+// })
+
+//APi data using promise
+
+const UserData=new Promise(function(resolve,reject){
+    setTimeout(function(data){
+        const data=fetch('https://jsonplaceholder.typicode.com/users')
+        console.log(data)
+        resolve()
+    },2000)
 })
-SecondPromise.then(function(user){
-    console.log(`User Data: ${user}`)
-})
+ UserData.then(function(data){
+    console.log(data)
+ })
