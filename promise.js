@@ -32,7 +32,7 @@ const User={
     username:'Mudassar',
     userslary:30000,
     UserGetDetails:function(){
-        console.log('This is user detalis...')
+        console.log(`UserName: ${this.username}`)
     }
 }
 console.log(User.UserGetDetails())
