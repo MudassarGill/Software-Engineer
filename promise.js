@@ -30,9 +30,9 @@
 //00p in js
 const User={
     username:'Mudassar',
-    LoggedIn:ture,
     userslary:30000,
     UserGetDetails:function(){
         console.log('This is user detalis...')
     }
 }
+console.log(User.UserGetDetails())
