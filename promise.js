@@ -26,23 +26,13 @@
 
 //APi data using promise
 
-const UserData=new Promise(function(resolve,reject){
-    setTimeout(function(data){
-        fetch('https://jsonplaceholder.typicode.com/users')
-        .then(function(response) {
-                return response.json()
-            })
-            .then(function(data) {
-                resolve(data)
-            })
-            .catch(function(error) {
-                reject(error)
-            })
-    },2000)
-})
- UserData.then(function(data) {
-    console.log(data)
-})
-.catch(function(error) {
-    console.log(error)
-})
+// 
+//00p in js
+const User={
+    username:'Mudassar',
+    LoggedIn:ture,
+    userslary:30000,
+    UserGetDetails:function(){
+        console.log('This is user detalis...')
+    }
+}
