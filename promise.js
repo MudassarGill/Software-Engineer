@@ -71,7 +71,7 @@ class User{
     changesalary(){
         return `The new salary is ${this.usersalary}`;
     }
-    username(){
+    ChangeUser(){
         return `The username is ${this.username.toUpperCase()}`;
     }
 }
@@ -79,4 +79,4 @@ class User{
 const user1=new User('Mudassar',30000);
 
 console.log(user1.changesalary(40000))
-console.log(user1.username('Mudassar Hussain Gill'))
+console.log(user1.ChangeUser())
