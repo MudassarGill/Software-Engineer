@@ -52,4 +52,8 @@
 const user={
     username:'Mudassar'
 }
-console.log(user)
+
+const Usermethod=function(){
+    console.log(`The username is ${this.username}`)
+}
+Object.setPrototypeOf(user,Usermethod)
