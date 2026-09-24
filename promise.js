@@ -28,11 +28,28 @@
 
 // 
 //00p in js
-const User={
-    username:'Mudassar',
-    userslary:30000,
-    UserGetDetails:function(){
-        console.log(`UserName: ${this.username}`)
-    }
+// const User={
+//     username:'Mudassar',
+//     userslary:30000,
+//     UserGetDetails:function(){
+//         console.log(`UserName: ${this.username}`)
+//     }
+// }
+// console.log(User.UserGetDetails())
+// const SecondUser={
+//     userage:20,
+//     UserGetAge:function(){
+//         console.log(`UserName: ${this.userage}`)
+//     }
+// }
+
+// const newuser=new SecondUser()
+// console.log(newuser)
+
+
+//prototype
+
+const user={
+    username:'Mudassar'
 }
-console.log(User.UserGetDetails())
+console.log(user)
