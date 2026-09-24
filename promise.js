@@ -49,15 +49,29 @@
 
 //prototype
 
-const user={
-    username:'Mudassar'
-};
+// const user={
+//     username:'Mudassar'
+// };
 
-const Usermethod={
-    login(){
-      console.log(`The username is ${this.username}`)
-}
-}
+// const Usermethod={
+//     login(){
+//       console.log(`The username is ${this.username}`)
+// }
+// }
     
-Object.setPrototypeOf(user,Usermethod)
-user.login()
+// Object.setPrototypeOf(user,Usermethod)
+// user.login()
+
+// class in js
+class User{
+    constructor(username,usersalary){
+        this.username=username;
+        this.usersalary=usersalary;
+    }
+    changesalary(newSalary){
+        return `The new salary is ${newSalary}`;
+    }
+}
+
+const user1=new User('Mudassar',30000);
+console.log(user1.changesalary(40000))
