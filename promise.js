@@ -67,11 +67,16 @@ class User{
     constructor(username,usersalary){
         this.username=username;
         this.usersalary=usersalary;
+    };
+    changesalary(){
+        return `The new salary is ${this.usersalary}`;
     }
-    changesalary(newSalary){
-        return `The new salary is ${newSalary}`;
+    username(){
+        return `The username is ${this.username.toUpperCase()}`;
     }
 }
 
 const user1=new User('Mudassar',30000);
+
 console.log(user1.changesalary(40000))
+console.log(user1.username('Mudassar Hussain Gill'))
